@@ -1,0 +1,52 @@
+body {
+    margin: 0;
+}
+
+.playground {
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+h1 {
+    display: inline-block;
+    position: relative;
+    top: 25%;
+    left: 40%;
+}
+
+.cube {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 50%;
+    left: 33%;
+    animation: example 4s ease infinite
+}
+
+@keyframes example {
+    0% {
+        left: 33%;
+        background-color: red;
+    }
+    25% {
+        background-color: green;
+    }
+    50% {
+        left: 60%;
+        transform: rotate(360deg);
+    }
+    55% {
+        background-color: blue;
+    }
+    70%{
+        background-color: yellow;
+    }
+    100% {
+        background-color: red;
+        left: 33%; 
+        transform: rotate(720deg);
+    }
+}
