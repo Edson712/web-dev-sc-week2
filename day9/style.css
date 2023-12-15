@@ -1,0 +1,256 @@
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    border: 1px solid black;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+body>* {
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+}
+
+.grid-header {
+    display: grid;
+    grid-template-columns: 15% auto 10%;
+    padding: 10px;
+}
+
+
+.grid-header__nav {
+    display: grid;
+    grid-template-columns: 70% auto;
+    justify-content: end;
+}
+
+.grid-header__nav ul {
+    display: grid;
+    grid-template-columns: 16.6666666667% 16.6666666667% 16.6666666667% 16.6666666667% 16.6666666667% 16.6666666667%;
+}
+
+.grid-header__icons {
+    display: grid;
+    grid-template-columns: 50% auto;
+}
+.grid-header__icons ul {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.banner {
+    display: grid;
+    grid-template-columns: 55%;
+    justify-content: end;
+}
+
+.banner__content {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.banner__content section {
+    margin: 0;
+    text-align: start;
+}
+
+.about {
+    display: grid;
+    grid-template-columns: 60% auto auto;
+    justify-content: center;
+}
+
+.about div {
+    border: 1px solid black;
+}
+
+.about__top {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.about__top h2 {
+    text-align: end;
+    padding-right: 40px;
+}
+
+.about__top p {
+    text-align: start;
+}
+
+.about__bot {
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.categories {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+}
+
+.categories div {
+    display: grid;
+    grid-template-columns: 50% auto auto;
+    justify-content: center;
+    border: 1px solid black;
+    align-content: center;
+}
+
+.stats {
+    display: grid;
+    grid-template-columns: 60% auto auto;
+    justify-content: center;
+}
+
+.stats div {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+
+.stats div section h2 {
+    border: 2px solid red;
+    border-radius: 50px;
+    width: 100px;
+    height: 100px;
+}
+
+.trainers {
+    display: grid;
+    grid-template-columns: 60% auto auto;
+    justify-content: center;
+}
+
+.trainers section>div {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+
+.trainers section div {
+    border: 1px solid red;
+}
+
+.membership {
+    display: grid;
+    grid-template-columns: 60% auto auto;
+    justify-content: center;
+}
+
+.membership__plans {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    column-gap: 15px;
+}
+
+.membership__plans div {
+    border: 1px solid black;
+}
+
+.bmi {
+    display: grid;
+    grid-template-columns: 50% auto auto;
+    justify-content: center;
+}
+
+.bmi__inputs {
+    display: grid;
+    grid-template-columns: 33.33% 33.33% 33.33%;
+    gap: 5px 5px;
+}
+
+.bmi__inputs * {
+    padding: 3px 10px;
+}
+
+.bmi__table {
+    display: grid;
+    grid-template-columns: 50% auto;
+    justify-content: center;
+}
+
+.bmi__table table {
+    border: 1px solid red;
+}
+
+th {
+    border-bottom: 1px solid red;
+}
+
+/* .bmi__table {
+    display: grid;
+    grid-template-columns: 70% auto auto;
+} */
+
+.reviews {
+    display: grid;
+    grid-template-columns: 60% auto auto;
+    justify-content: center;
+}
+
+.reviews__review {
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.reviews__review div {
+    border: 1px solid black;
+}
+
+.blogs {
+    display: grid;
+    grid-template-columns: 60% auto auto;
+    justify-content: center;
+}
+
+.blogs__post {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+}
+
+.blogs__post div>h6 {
+    text-align: start;
+}
+
+.affiliates {
+    display: grid;
+    grid-template-columns: 60% auto auto;
+    justify-content: center;
+}
+
+.affiliates>div {
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+}
+
+.grid-footer {
+    display: grid;
+    grid-template-columns: 60% auto auto;
+    justify-content: center;
+}
+
+.grid-footer>div {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+}
+
+.grid-footer section {
+    border: 1px solid black;
+}
+
+.grid-footer__gallery {
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.grid-footer__newsletter {
+    display: grid;
+    grid-template-columns: 80% auto;
+}
